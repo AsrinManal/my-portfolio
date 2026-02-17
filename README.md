@@ -14,6 +14,7 @@ The portfolio serves as a central place to:
 * Provide easy ways to contact me
 
 It is built with simplicity and performance in mind, suitable for recruiters, interviewers, and collaborators.
+<img width="1366" height="628" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/e67e6dc6-9e5e-4c3b-b643-fdbf05d48639" />
 
 ---
 
