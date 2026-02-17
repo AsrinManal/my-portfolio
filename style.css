@@ -140,6 +140,11 @@ header:hover {
 
   .hamburger {
     display: block;
+    font-size: 3.5rem !important;
+    color: #ff6b6b !important;
+    text-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+    padding: 5px;
+    display: block;
   }
 
   .nav-links {
@@ -563,18 +568,39 @@ section p {
     .project-list {
       flex-direction: column;
       align-items: center;
-      gap: 3rem;
+      gap: 4rem;
+      padding: 3rem 0;
     }
 
     .project-card {
       width: 90%;
       max-width: 350px;
-      height: 220px;
-      margin: 0 auto 2rem auto;
+      height: 250px;
+      margin: 0 auto 3rem auto;
+      perspective: none;
     }
 
     .project-card:hover {
-      transform: translateY(0);
+      transform: none;
+    }
+
+    .project-card:hover .card-inner,
+    .project-card.flipped .card-inner {
+      transform: none;
+    }
+
+    .card-back {
+      position: static;
+      transform: none;
+      display: none;
+    }
+
+    .project-card.flipped .card-front {
+      display: none;
+    }
+
+    .project-card.flipped .card-back {
+      display: flex;
     }
   }
 }
